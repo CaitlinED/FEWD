@@ -1,0 +1,56 @@
+body {
+    background-image: url('https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?cs=srgb&dl=pexels-moose-photos-1038002.jpg&fm=jpg');
+    background-repeat: repeat;
+    background-size: 100%, 100%;
+  }
+
+  form {
+     display: flex;
+     justify-content: center;
+     margin-top: 150px;
+  }
+
+  legend {
+      color: darkgray
+  }
+
+#ok {
+    background-color: #fefebe;
+    border: #fefebe;
+    cursor: hand;
+}
+
+h1 {
+    background-color: pink;
+}
+
+.hello {
+    display: none;
+    position:relative;
+
+}
+
+.fade {
+    animation: fade 6s;
+    position: absolute;
+    top: 50%
+  }
+  
+  @keyframes fade {
+    0% {
+      transform: translateY(300px);
+
+    }
+
+    50% {
+    transform: translateY(300px);
+}
+
+    100% {
+      transform: translateY(-350px);
+    }
+  }
+
+ nav {
+    display: none;
+} 
