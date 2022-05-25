@@ -12,7 +12,7 @@ function letsGo(e) {
     e.preventDefault()
     const greeting = hello.querySelector("h1")
 
-greeting.innerText = `Welcome, ${name.value}`
+greeting.innerText = `Hello, ${name.value}`
 hello.style.display = 'block';
 form.style.display = "none"
 greeting.classList.add('fade')
